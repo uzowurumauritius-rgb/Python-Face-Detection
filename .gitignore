@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large binary weights (downloaded on demand)
+*.pt
+*.onnx
+*.engine
+
+# Video assets & screen recordings
+*.mp4
+
+# PDF guides & local artifacts
+*.pdf
+.DS_Store
+.idea/
+.vscode/
